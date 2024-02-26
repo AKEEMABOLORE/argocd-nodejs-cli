@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodesy-container
-          image: alpine:latest
+          image: alpine:3.19.1
           ports:
             - containerPort: 3000
 
